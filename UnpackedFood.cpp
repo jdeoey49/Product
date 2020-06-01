@@ -37,9 +37,10 @@ void UnpackedFood::enterProductAttributes()
 }
 ostream& operator<<(ostream& out_ref, const UnpackedFood& unpacked_ref)
 {
-	out_ref << "Unpacked Food Attributes (Derived Class):" << endl;
+	out_ref << "Unpacked Food Attributes <Derived Class>:" << endl;
 	out_ref << "Unpacked Food Name: " <<unpacked_ref.getName() << endl;
 	out_ref << "Unpacked Food Bar Code: " << unpacked_ref.getBarCode() << endl;
-	out_ref << "Unpacked Food: Unit Price: " << fixed << setprecision(2) << unpacked_ref.getPrice();
+	out_ref << "Unpacked Food: Unit Price: " << fixed << setprecision(2) << unpacked_ref.getPrice()<<endl;
+	out_ref<<"Unpacked Food: Weight: "<<fixed << setprecision(2)<<unpacked_ref.getWeight()<<endl;
 	return out_ref;
 }

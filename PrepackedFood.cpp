@@ -36,7 +36,7 @@ void PrepackedFood::enterProductAttributes()
 
 std::ostream& operator<<(std::ostream& out_ref, const PrepackedFood& packed_ref)
 {
-	out_ref << "Prepacked Food Attributes (Derived Class):" << endl;
+	out_ref << "Prepacked Food Attributes <Derived Class>:" << endl;
 	out_ref << "Prepacked Food Name: " << packed_ref.getName() << endl;
 	out_ref << "Prepacked Food Bar Code: " << packed_ref.getBarCode() << endl;
 	out_ref << "Prepacked Food: Unit Price: " << fixed << setprecision(2) << packed_ref.getPrice();

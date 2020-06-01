@@ -1,7 +1,7 @@
 // main.cpp
 // driver program for product entry system involving base class Product
 // and the two derived classes PrepackedFood and UnpackedFood
-
+///////////////////////////////
 #include "Product.h"
 #include "PrepackedFood.h"
 #include "UnpackedFood.h"
@@ -23,7 +23,7 @@ int main()
 	//product2 display product attributes
 	cout << endl << product2 << endl; 
 	
-	cout << endl << "Dialog for Entering Product Attributes (Base Class) " << endl; 
+	cout << endl << "Dialog for Entering Product Attributes <Base Class> " << endl; 
 	product3.enterProductAttributes();
 	//product3 display product attributes
 	cout << endl << product3 << endl; 
@@ -42,7 +42,7 @@ int main()
 	//packed2 display product attributes
 	cout << endl << packed2 << endl; 
 	
-	cout << endl << "Dialog for Entering Prepacked Food Attributes (derived Class) " << endl;
+	cout << endl << "Dialog for Entering Prepacked Food Attributes <Derived Class> " << endl;
 	packed3.enterProductAttributes();
 	//packed3 display product attributes
 	cout << endl << packed3 << endl; 
@@ -62,7 +62,7 @@ int main()
 	//unpacked2 display product attributes
 	cout << endl << unpacked2 << endl; 
 	
-	cout << endl << "Dialog for Entering Unpacked Food Attributes (derived Class) " << endl; 
+	cout << endl << "Dialog for Entering Unpacked Food Attributes <Derived Class> " << endl; 
 	unpacked3.enterProductAttributes();
 	//unpacked3 display product attributes
 	cout << endl << unpacked3 << endl; 

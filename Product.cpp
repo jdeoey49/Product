@@ -4,7 +4,7 @@
 using namespace std;
 Product::Product(string name,int bar_code):name_(name),bar_code_(bar_code)
 {
-	cout << "Constructor of base class Product running!" << endl;
+	cout << "\nConstructor of base class Product running!" << endl;
 }
 Product::~Product()
 {
